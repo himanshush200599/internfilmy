@@ -1,0 +1,308 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.navBorder {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+
+.hide{
+  display: none;
+}
+#upperNavLogo{
+  width:70%;
+margin-left: -4%;
+  height: 50px;
+}
+.navForm{
+  margin-right: 6%;
+}
+#email,#pass{
+  border-radius: 0;
+  background-color: #FFFFC6;
+  width: 170px;
+  height: 40px;
+  margin: 10px;
+}
+#username,#signpass,#mobnumb{
+  border-radius: 0;
+  background-color: #FFFFC6;
+  text-align: center;
+}
+#login{
+  border-radius: 0;
+width: 85px;
+font-weight: bolder;
+height: 40px;
+
+margin: 10px;
+}
+.relativeImg{
+
+      position:relative;
+
+    }
+    .absolute-text{
+
+      position:absolute;
+      bottom:250px;
+      font-size:32px;
+      font-family:"vedana";
+      text-shadow: 2px 1px 1px black;
+  color:white;
+  font-weight: bolder;
+    padding:10px 20px;
+
+     width:100%;
+      text-align:left;
+    }
+  .text2{
+
+        position:absolute;
+        bottom:200px;
+        font-size:25px;
+        font-family:"vedana";
+        background-color: #FFFFFF;
+
+    color:#363636;
+    font-weight: bolder;
+      padding:10px 20px;
+  margin-left: 20px;
+       width:45%;
+        text-align:left;
+      }
+  .user1{
+    position:relative;
+  bottom: 55px;
+  color: white;
+  margin-bottom: -45px;
+  }
+  .grid1{
+    background-color: #000000;
+    margin-left: 0;
+  border-left: 1px solid black;
+  }
+  .grid2{
+    background-color:#FFFFFF;
+
+    color:black;
+
+  }
+  .grid3{
+    background-color:#FFFFFF;
+
+  color:black;
+  }
+  .row{
+  margin:30px;
+}
+.imgMain{
+  width: 100%;
+}
+.google{
+  width:270px;;
+  padding:10px;
+  font-size: 20px;
+  color:#FFFFFF;
+  background: linear-gradient(to right,#FF966F,#FF5931);
+margin-bottom: 25px;
+font-weight: bolder;
+  border-radius: 0;
+  margin-top: 15px;
+  margin-left: -18px;
+}
+#submit{
+  width:270px;;
+  padding:10px;
+  font-size: 20px;
+  color:#FFFFFF;
+font-weight: bolder;
+border-radius: 0;
+margin-top: 15px;
+}
+.facebook{
+  margin-top: 15px;
+  margin-left: -18px;
+  width:270px;;
+  padding:10px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color:#FFFFFF;
+  background: linear-gradient(to right,#4090FF , #2ED5FF);
+font-weight: bolder;
+  border-radius: 0;
+
+}
+.or{
+  border:1px solid gray;
+  background-color: white;
+  border-radius: 50% ;
+  padding:5px;
+  margin:4px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  color:black;
+box-shadow: 3px 0px white ;
+-webkit-box-shadow: 0 8px 6px -6px #999;
+-moz-box-shadow: 0 8px 6px -6px #999;
+box-shadow: 0 8px 6px -6px #999;
+margin: 15px;
+
+}
+.or1:after,
+.or1:before{
+    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    color:lightgray;
+margin-bottom: 20px;
+
+}
+#ormargin{
+  margin-right: 12%;
+}
+#box{
+  width:300px;
+margin-bottom: 20px;
+  height: 560px;
+  padding-left: 20px;
+  border: 1px solid #EFEFEF;
+  box-shadow: 0px 2px 5px #000000;
+
+
+}
+#number{
+  color:#FF0F0F;
+  text-align: left;
+}
+.pnumber{
+  text-align: left;
+}
+.many{
+  color:lightgray;
+}
+.condt{
+  margin-top: 20px;
+  font-size: 18px;
+}
+.condtn{
+  float:left;
+}
+#join{
+  margin-top: 15px;
+  margin-right: 6%;
+}
+.offer{
+  width:300px;
+  border:1px solid gray;
+  height: 14%;
+padding : 35px;
+margin:0;
+margin-top: 45px;
+box-sizing:border-box;
+box-shadow: 1px 1px 1px 2px gray;
+}
+#special{
+  color:#363636;
+display: block;
+text-align: justify;
+  font-weight:bolder;
+  padding-top: 15px;
+  padding-left: 20%;
+}
+.form{
+  margin-top: 5px;
+
+}
+#form1{
+  float: right;
+}
+.card{
+  top:-70px;
+}
+#inputfeild{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  float: left;
+  margin-left: -7px;
+}
+#footertext{
+  margin:7px;
+padding:auto;
+font-size: 1.5vw;
+  font-weight: bolder;
+
+}
+#foot{
+  margin-top: 26px;
+  margin-right:  -38%;
+}
+@media (max-width:991px) {
+  .logomob{
+   display: block;
+   margin: 0 auto;
+  }
+  #upperNavLogo{
+    margin: 0;
+  }
+.navForm{
+  margin: 0;
+}
+#footertext{
+  margin:7px;
+padding:auto;
+font-size: 2vw;
+  font-weight: bolder;
+
+}
+#email1,#pass1{
+  background-color: #FFFFC6;
+  width: 270px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0;
+
+}
+.facebook,.google{
+  width: 270px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12px;
+  border-radius: 0;
+
+}
+  }
+@media (max-width:1200px){
+  .spclhide{
+    display: none;
+  }
+
+}
+@media (max-width:768px) {
+  #footertext{
+    margin:5px;
+  padding:auto;
+  font-size: 3.2vw;
+    font-weight: bolder;
+
+  }
+
+
+}
+@media (max-width:321px) {
+  #footertext{
+    margin: 2px;
+    font-size: 3.9vw;
+
+  }
+  #fimage{
+    width: 60px;
+    margin-left: -20px;
+  }
+#foot{
+margin-left: -40px;
+margin-top: 16px;
+}
+}
